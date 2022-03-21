@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}WELCOME TO ALEXANDER SLAGER'S WEBSITE{% endblock %}
+
+{% block content %}
+    <div class= "container">
+    <h1>Hello World!</h1>
+
+    <br/><br/>
+
+    <img src="{{ url_for('static', filename = 'images/1.jpg')}}" width="300">
+    <img src="static/images/2.jpg" width="400">
+    <img src="{{ url_for('static', filename = 'images/1.jpg')}}" width="300">
+
+
+    </div>
+{% endblock %}
