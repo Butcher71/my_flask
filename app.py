@@ -116,4 +116,6 @@ def form():
 	subscribers.append(f"{first_name} {last_name} || {email}")
 
 	title = "Thank You!"
+	#return render_template("form.html", title = title, first_name = first_name, last_name = last_name,email = email)
 	return render_template("form.html", title = title, subscribers = subscribers)
+  
